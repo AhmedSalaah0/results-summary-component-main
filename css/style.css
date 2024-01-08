@@ -159,14 +159,21 @@ button:hover {
 }
 
 @media only screen and (max-width: 700px) {
+    .body{
+        display: block;
+    }
     .parent {
         display: flex;
         flex-direction: column;
     }
     .left{
         height: 100%;
-        width: 95%;
+        width: 100%;
 
+    }
+    .sammary {
+        height: 100%;
+        width: 100%;
     }
     .result {
         border: 100px;
