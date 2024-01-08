@@ -158,3 +158,17 @@ button:hover {
     background: linear-gradient(rgb(140, 52, 255), rgb(88, 0, 202), rgb(111, 0, 255));
 }
 
+@media only screen and (max-width: 700px) {
+    .parent {
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        height: 400px;
+        width: 95%;
+
+    }
+    .result {
+        border: 100px;
+    }
+}
