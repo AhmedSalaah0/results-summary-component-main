@@ -107,19 +107,38 @@ body {
 
 .row:nth-child(1) {
     background-color: hsla(341, 100%, 49%, 0.05);
-    
+    transition: all 1s 0s;
 }
+.row:nth-child(1):hover{
+    background-color: hsla(341, 100%, 49%, 0.393);
+}
+
 .row:nth-child(2) {
     background-color: hsla(32, 82%, 52%, 0.05);
-    
+    transition: all 1s 0s;
 }
+
+.row:nth-child(2):hover {
+    background-color: hsla(32, 82%, 52%, 0.393);
+
+}
+
 .row:nth-child(3) {
     background-color: hsla(158, 82%, 52%, 0.05);
-    
+    transition: all 1s 0s;
 }
+
+.row:nth-child(3):hover {
+    background-color: hsla(158, 82%, 52%, 0.393);
+}
+
 .row:nth-child(4) {
     background-color: hsla(254, 100%, 49%, 0.05);
-    
+    transition: all 1s 0s;
+}
+
+.row:nth-child(4):hover {
+    background-color: hsla(254, 100%, 49%, 0.393);
 }
 
 button {
