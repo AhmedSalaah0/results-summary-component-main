@@ -1,0 +1,141 @@
+body {
+    background-color:azure;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif ;
+    align-items: center ;
+}
+.parent {
+    width: 650px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+    width: 325px;
+    gap: 20px;
+    background: linear-gradient(rgb(140, 52, 255), rgb(88, 0, 202), rgb(111, 0, 255));
+}
+
+.text {
+    width: 230px;
+    color: lightcyan;
+    text-align: center;
+}
+
+.left h2 {
+    color: lightcyan;
+    
+}
+
+.left p b {
+    color: white;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.left .result {
+    background: linear-gradient(rgb(140, 52, 255), rgb(88, 0, 202), rgb(111, 0, 255));
+    width: 160px;
+    height: 160px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 90px;
+    transition: all 0.5s 0s;
+}
+
+.result:hover {
+    box-shadow: -1px -1px 3px black;
+}
+
+.left .result h1{
+    color: white;
+}
+
+.left .result .full {
+    opacity: 0.8;
+    color: lightcyan;
+}
+
+.left h2 {
+    display: inline-block;
+    margin: 0;
+    color: white;
+}
+
+.sammary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: white;
+    width: 325px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    gap: 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.row:nth-child(1) {
+    background-color: hsla(341, 100%, 49%, 0.05);
+    
+}
+.row:nth-child(2) {
+    background-color: hsla(32, 82%, 52%, 0.05);
+    
+}
+.row:nth-child(3) {
+    background-color: hsla(158, 82%, 52%, 0.05);
+    
+}
+.row:nth-child(4) {
+    background-color: hsla(254, 100%, 49%, 0.05);
+    
+}
+
+button {
+    width: 80%;
+    color: white;
+    font-size: 15px;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(55, 48, 48);
+    cursor: pointer;
+    transition: 0.5s 0s;
+}
+
+button:hover {
+    box-shadow: -1px -1px 3px rgb(88, 0, 202);
+    background: linear-gradient(rgb(140, 52, 255), rgb(88, 0, 202), rgb(111, 0, 255));
+}
+
